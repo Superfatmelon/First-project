@@ -1,0 +1,6 @@
+Use the following command to let the python program run in the background system.
+command 1. 
+nohup python3 -m server > log.out 2>&1 &  
+ps: "-m" means use "moudle" to run the program; "log.out" means output of program will write into it.
+
+Use the following command to let the
